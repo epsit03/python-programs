@@ -1,0 +1,28 @@
+#Take input using input()
+#input() takes input in form of the string
+
+in_string = input()
+
+#here extract the two numbers from the string
+
+mylist = in_string.split(',')
+
+#print x and y before swapping
+
+x = int(mylist[0])
+y = int(mylist[1])
+
+print('x before swapping:',format(x))
+print('y before swapping:',format(y))
+
+#Writing your swapping code here
+
+temp = x
+x = y
+y = temp
+print()
+
+#print x and y after swapping
+
+print('x after swapping:',format(x))
+print('y after swapping:',format(y))
